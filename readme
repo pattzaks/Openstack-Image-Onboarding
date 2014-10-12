@@ -1,0 +1,11 @@
+This is project of Openstack Image Onboarding.
+This project was completed by Akshay Patil as part of Bootcamp.
+
+This code is well written to be integrated with any of the cloud automation application.
+Its open-ended for implemention of the invocation side. Invocation can be done by Private cloud, Public cloud, 
+private infrastructure. 
+
+Requirements: 
+1) To run this code you will need an Openstack Setup
+2) Python interpreter version 2.7
+
