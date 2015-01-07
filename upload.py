@@ -46,6 +46,7 @@ class Upload:
 		try: 
 			self.endPointObj = self.logObj.login() # generates a token and populateendpoints
 			self.xAuthToken  = self.logObj.get_token()
+			print str(self.endPointObj)
 		except OperationError, e :
 			sys.stderr.write( "\n" + str(e.err))
 			exit(e.err)
