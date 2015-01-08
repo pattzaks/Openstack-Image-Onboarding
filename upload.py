@@ -47,6 +47,7 @@ class Upload:
 			self.endPointObj = self.logObj.login() # generates a token and populateendpoints
 			self.xAuthToken  = self.logObj.get_token()
 			print str(self.endPointObj)
+			print "Patzaks: change"
 		except OperationError, e :
 			sys.stderr.write( "\n" + str(e.err))
 			exit(e.err)
